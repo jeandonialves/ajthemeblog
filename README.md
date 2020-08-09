@@ -1,0 +1,2 @@
+# ajthemeblog
+Theme for blog
