@@ -1,0 +1,12 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "build": "node-sass sass/main.scss css/main.css --output-style compressed",
+    "watch": "node-sass sass/main.scss css/main.css --output-style compressed --watch"
+  }
+}

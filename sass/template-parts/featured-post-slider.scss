@@ -1,0 +1,27 @@
+@import '../utils/colors';
+
+.featured-post-slider {
+    .featured-post-slides-container {
+        margin: auto;
+        .card-post-slide {
+            margin: 50px 0;
+            min-height: 220px;
+            img {
+                height: 220px;
+                border-radius: 6px;
+            }
+            a {
+                color: $black;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            .category > a {
+                color: $darkGrey;
+            }
+            .excerpt {
+                font-size: 15px;
+            }
+        }
+    }
+}

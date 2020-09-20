@@ -1,0 +1,12 @@
+@import '../utils/colors';
+
+.slick-prev:before {
+    color: $black;
+}
+.slick-next:before {
+    color: $black;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+}

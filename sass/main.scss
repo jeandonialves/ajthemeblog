@@ -1,0 +1,27 @@
+/* UTILS */
+@import 'utils/colors';
+@import 'utils/typography';
+
+/* COMPONENTS */
+@import 'components/card';
+@import 'components/search';
+@import 'components/slick';
+
+/* TEMPLATE PARTS */
+@import 'template-parts/featured-post-slider.scss';
+
+/* SECTIONS */
+@import 'sections/header';
+@import 'sections/footer';
+
+/* PAGES */
+@import 'pages/index';
+@import 'pages/home';
+
+* {
+    font-family: Roboto Condensed, sans-serif;
+}
+
+main {
+    margin-top: 70px;
+}

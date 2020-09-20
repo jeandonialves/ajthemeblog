@@ -1,0 +1,11 @@
+@import '../utils/colors';
+
+.footer-blog {
+    margin-top: 50px;
+    position: relative;
+    color: $white;
+    background-color: $black;
+    .items {
+        height: 140px;
+    }  
+}
